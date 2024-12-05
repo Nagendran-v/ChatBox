@@ -1,0 +1,33 @@
+h2{
+    text-align: center;}
+    .chat-container {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    input[type="text"] {
+        width: 500px; 
+        padding: 8px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    .message {
+        width: 60%;
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+    .message li {
+        margin-bottom: 5px;
+        background-color: #f1f1f1;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block; 
+        width: 80%; 
+    }
+    .friend1, .friend2 {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }

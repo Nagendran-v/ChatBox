@@ -1,0 +1,23 @@
+<html>
+<head>
+<link rel = "stylesheet" href = "CSS/chatbox.css">
+</head>
+<body>
+    <h2> Chat </h2>
+    <div class="chat-container">
+        <div class="friend1">
+            <h2> Friend 1 </h2>
+            <img src="Image/1.jpeg" width="500px" height="400px">
+            <input type="text" id="i1" onkeyup="send_message(event, 'i1')">
+        </div>
+        <ul class="message" id="chat-messages"></ul>
+        <div class="friend2">
+            <h2> Friend 2 </h2>
+            <img src="Image/2.jpeg" width="500px" height="400px">
+        <input type="text" id="i2" onkeyup="send_message(event, 'i2')">     
+        </div>
+    </div>
+    <script src = "JS/chatbox.js"></script>
+</body>
+</html>
+
